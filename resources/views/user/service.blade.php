@@ -9,7 +9,7 @@
     <!-- Topbar Start -->
     @include('user.nevbar')
     <!-- Navbar End -->
-<h1>Test git </h1>
+<h1>Test git</h1>
 
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
