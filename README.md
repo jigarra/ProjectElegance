@@ -3,4 +3,4 @@
 3. run php artisan serve 
 4. check Payment Key add in Pymentcontroller.php 
 
-<p>Develope by <a href="http://mjcreator.jimdosite.com/">Jigarra</a></p>
+<p>Develope by <button>0<a href="http://mjcreator.jimdosite.com/">Jigarra</a></button></p>
