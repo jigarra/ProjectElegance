@@ -11,13 +11,6 @@
       'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
     ),
   ),
-  'cybercog/laravel-ban' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Cog\\Laravel\\Ban\\Providers\\BanServiceProvider',
-    ),
-  ),
   'jenssegers/agent' => 
   array (
     'providers' => 

@@ -47,30 +47,30 @@
                             @csrf
                             
                             <div class="form-group">
-                                <label for="inputAddress">Title</label>
+                                <label for="inputAddress">Greeting</label>
                                 <input type="text" name="greeting" class="form-control" id="inputAddress">
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">Enter Message</label>
+                                <label for="inputAddress">Body</label>
                                 <input type="text" name="body" class="form-control" id="inputprice">
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">Title Of Message</label>
+                                <label for="inputAddress">Action text</label>
                                 <input type="text" name="actiontext" class="form-control" id="inputprice">
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress">URL</label>
+                                <label for="inputAddress">Action URL</label>
                                 <input type="text" name="actionurl" class="form-control" id="inputprice">
                             </div>
 
                             <div class="form-group">
-                                <label for="inputAddress">Regards..</label>
+                                <label for="inputAddress">End Part</label>
                                 <input type="text" name="endpart" class="form-control" id="inputprice">
                             </div>
                             
                             <div class="form-group">
-                                <a href="/admin_appointment" type="button" class="btn btn-outline-secondary"
-                                    data-dismiss="modal">Close</a>
+                                <button type="button" class="btn btn-outline-secondary"
+                                    data-dismiss="modal">Close</button>
                                 <button type="submit" name="submit" value="submit"
                                     class="btn btn-outline-primary">send Email</button>
                             </div>

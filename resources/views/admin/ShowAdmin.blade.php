@@ -65,6 +65,7 @@
                                             <th>Email</th>
                                             <th>Position</th>
                                             <th>Update</th>
+                                            <th>Disable</th>
                                             
                                         </tr>
                                     </thead>
@@ -77,7 +78,8 @@
                                             <td>{{$user->email}}</td>
                                             <td>{{$user->usertype}}</td>
                                             <td><a type="button" href="{{url('show_admindata',$user->id)}}" class="btn btn-outline-primary">Update</a></td>
-                                             </tr>
+                                            <td><a type="button" href="{{url('disable_admin',$user->id)}}" class="btn btn-outline-primary">Disable</a></td>
+                                        </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
@@ -148,8 +150,6 @@
                     </div>
                 </div>
             </div>
-</div>
-
             <!-- End Add service Model  -->
         @include('admin.footer')
 

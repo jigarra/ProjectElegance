@@ -91,7 +91,7 @@ input[type="month"].form-control {
                                             <th>Status</th>
                                             <th>Check Details</th>
                                             <th>Cancle</th>
-                                            <!-- <th>Send Email</th> -->
+                                            <th>Send Email</th>
                                             
                                         </tr>
                                     </thead>
@@ -108,7 +108,7 @@ input[type="month"].form-control {
                                             <td>{{$appoint->status}}</td>
                                             <td><a type="button" href="{{url('admin_check', $appoint->appointment_id)}}" class="btn btn-outline-info">Check</a></td>
                                             <td><a type="button" href="{{url('admin_appointment_approved_cancle', $appoint->appointment_id)}}" class="btn btn-outline-danger">Cancle</a></td>
-                                            <!-- <td><a type="button" href="{{url('admin_email_view', $appoint->appointment_id)}}" class="btn btn-outline-primary">Email</a></td> -->
+                                            <td><a type="button" href="{{url('admin_email_view', $appoint->id)}}" class="btn btn-outline-primary">Email</a></td>
                                         </tr>
                                         @endforeach
                                     </tbody>

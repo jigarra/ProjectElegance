@@ -63,7 +63,7 @@
                                             <th>Service</th>
                                             <th>Date-Time</th>
                                             <th>Status</th>
-                                            <!-- <th>Send Email</th> -->
+                                            <th>Send Email</th>
                                             
                                         </tr>
                                     </thead>
@@ -78,7 +78,7 @@
                                             <td>{{$appoint->date}} {{$appoint->time}} </td>
                                             <td>{{$appoint->status}}</td>
                                             
-                                            <!-- <td><a type="button" href="{{url('admin_email_view', $appoint->id)}}" class="btn btn-outline-primary">Email</a></td> -->
+                                            <td><a type="button" href="{{url('admin_email_view', $appoint->id)}}" class="btn btn-outline-primary">Email</a></td>
 
                                         </tr>
                                         @endforeach

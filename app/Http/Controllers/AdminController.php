@@ -18,7 +18,7 @@ class AdminController extends Controller
         {
             if(Auth::user()->usertype=='3')
             {
-                $data=user::orderBy('created_at','DESC')->get();
+                $data=user::all();
                 return view('admin.home',compact('data'));
                 //return view('user.home'); 
             }
